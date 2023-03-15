@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% load simple_tag inclusion_tag %}
+{% greet_user "Hey there" username %}
+{% contextual_greet_user "Hey there" %}
+<br>
+<span class="message">You have read the following books till date</span>
+{% book_list books %}
+</body>
+</html>
