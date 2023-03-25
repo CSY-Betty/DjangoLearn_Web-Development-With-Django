@@ -20,6 +20,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from bookr.views import profile
 from django.contrib import admin
+import bookr_test
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -31,6 +32,7 @@ urlpatterns = [
     path('accounts/profile/', profile, name='profile'),
     path('filter_demo/', include('filter_demo.urls')),
     path('book_management/', include('book_management.urls')),
+    path('', include('bookr_test.urls')),
 ]
 
 if settings.DEBUG:

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/.idea/Downloads.iml" filepath="$USER_HOME$/Downloads/.idea/Downloads.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Note/.idea/Note.iml" filepath="$PROJECT_DIR$/../Note/.idea/Note.iml" />
       <module fileurl="file://$PROJECT_DIR$/../chatGPT-discord-bot-main/.idea/chatGPT-discord-bot-main.iml" filepath="$PROJECT_DIR$/../chatGPT-discord-bot-main/.idea/chatGPT-discord-bot-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/django-Learn.iml" filepath="$PROJECT_DIR$/.idea/django-Learn.iml" />
